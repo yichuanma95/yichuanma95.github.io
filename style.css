@@ -35,6 +35,9 @@ h1 {
     font-size: 45px;
 }
 
+.headerTitle {
+    margin-left: 30px;
+}
 #bioBody { /* background for my bio page. */
     background-color: yellow;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -53,7 +56,6 @@ header { /* customized header sections */
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     padding-top: 10px;
     padding-bottom: 20px;
-    padding-left: 30px;
     position: relative;
     width: 100%;
 }

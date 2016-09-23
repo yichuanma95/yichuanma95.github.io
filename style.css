@@ -1,0 +1,71 @@
+/*
+ * Yichuan Philip Ma
+ * Yichuan.ma@tufts.edu
+ * 9/22/16
+ * style.css
+ * The main stylesheet for my webpages at yichuanma95.github.io
+ */
+
+h2, h3, h4, p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body {
+    margin: 0px;
+}
+
+#homeBackground { /* Background specifically for the home page. */
+    background: repeating-linear-gradient(
+        120deg,
+        #11eeee,
+        #22cdef 200px
+    );
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+img {
+    width: 950px;
+    border-radius: 40%;
+}
+
+h1 {
+    font-size: 45px;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+
+#bioBody { /* background for my bio page. */
+    background-color: yellow;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    font-size: 21px;
+    color: #0001dd;
+}
+.mainLinks { /* to align links on my home page */
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+header { /* customized header sections */
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    padding-top: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.sidelinks { /* to align links on my other pages */
+    position: absolute;
+    right: 30px;
+}
+
+#bioHeader {
+    background-color: red;
+}
+#resumeHeader {
+    background-color: #12bc34;
+}

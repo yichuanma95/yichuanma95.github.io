@@ -34,7 +34,6 @@ img {
 h1 {
     font-size: 45px;
     margin-left: 30px;
-    padding-bottom: 20px;
 }
 
 #bioBody { /* background for my bio page. */
@@ -54,6 +53,7 @@ a {
 header { /* customized header sections */
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     padding-top: 10px;
+    padding-bottom: 20px;
     position: relative;
     width: 100%;
 }

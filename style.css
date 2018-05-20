@@ -41,6 +41,7 @@ h1 {
 .headerTitle {
     margin-left: 30px;
 }
+
 #bioBody { /* background for my bio page. */
     background-color: yellow;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -73,4 +74,8 @@ header { /* customized header sections */
 }
 #resumeHeader {
     background-color: #12bc34;
+}
+
+.bioLinks{
+    font-size: 12pt;
 }
